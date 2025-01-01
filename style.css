@@ -49,6 +49,29 @@ input {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
+}
+
+.botaoTarefa {
+    padding: 3px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(220, 0, 0);
+    color: white;
+    font-weight: 600;
+}
+
+.botaoTarefa:hover {
+    background-color: rgb(150, 0, 0);
+    cursor: pointer;
+}
+
+.mensagemN {
+    color:rgb(220, 0, 0);
+}
+
+.mensagemP {
+    color:rgb(0, 220, 66);
 }
 
 @media screen and (max-width: 330px) {
