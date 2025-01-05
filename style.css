@@ -69,10 +69,18 @@ input {
 .mensagemN {
     color:rgb(220, 0, 0);
 }
+.mensagemN:hover {
+    color:rgb(150, 0, 0);
+}
 
 .mensagemP {
     color:rgb(0, 220, 66);
 }
+
+.mensagemP:hover {
+    color:rgb(0, 149, 45);
+}
+
 
 @media screen and (max-width: 330px) {
     h1 {
