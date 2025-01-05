@@ -81,6 +81,14 @@ input {
     color:rgb(0, 149, 45);
 }
 
+.rodape {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.rodape h3 {
+    font-weight: 300;
+}
 
 @media screen and (max-width: 330px) {
     h1 {

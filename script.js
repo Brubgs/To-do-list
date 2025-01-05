@@ -20,8 +20,8 @@ function addTarefa(){
         containerTarefa.appendChild(novaTarefa)
 
         const botaoExcluir = novaTarefa.querySelector('.botaoTarefa')
+        
         botaoExcluir.addEventListener('click', () => {
-            //alert('Excluir tarefa')
             novaTarefa.remove()
             mensagem.innerHTML = `<p class="mensagemN">Tarefa excluída!</p>`
         })
